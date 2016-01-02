@@ -1,3 +1,5 @@
+gems: ['kramdown']
+
 # Site settings
 title: TechTalk
 email: ryan@ryanhelms.com
@@ -13,3 +15,5 @@ highlighter: pygments
 #highlighter: rouge
 
 markdown: kramdown
+
+exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor', 'Procfile', 'Rakefile']

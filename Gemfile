@@ -1,6 +1,9 @@
-source :rubygems
+source 'https://rubygems.org'
 
-gem "jekyll"
-gem "github-pages"
-gem "pygments.rb"
-gem 'wdm', '>= 0.1.0' if Gem.win_platform?
+ruby '2.2.3'
+
+gem 'jekyll'
+gem 'kramdown'
+gem 'rack-jekyll'
+gem 'rake'
+gem 'puma'

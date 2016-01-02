@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 gems: ['kramdown']
+=======
+ruby '2.0.0'
+>>>>>>> 8b4cb7d76cb73c7b9a1de3cbb425bbbea63c1d2e
 
 # Site settings
 title: TechTalk

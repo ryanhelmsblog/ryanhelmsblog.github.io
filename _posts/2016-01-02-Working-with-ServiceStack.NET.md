@@ -4,10 +4,25 @@ layout: default
 ---
 
 
-
-
 ## My experience working with ServiceStack.NET
 
-  As a developer, I think yo are always on the path of trying to figure out how you can get from point a to point b faster, more efficiently and with less code. It is rare that you find a single tool that helps you with those 3 point (and MANY MANY more). Well, I have found that tool for me, welcome [ServiceStack.NET](http://www.servicestack.net/).
+<a id="background"></a>
+### Background
 
---- WORK IN PROGRESS ---
+  As a developer, I think you are always on the path of trying to figure out how you can get from point a to point b faster, more efficiently and with less code. It is rare that you find a single tool that helps you with those 3 points (and MANY MANY more). Well, I have found that tool, for me. Now, welcome [ServiceStack.NET](http://www.servicestack.net/).
+
+  From the moment I started tinkering with the framework, I fell in love. I decided to use it on the next client project that I would be working on which started on December 7th. I decided to do this from the ground up, with only reading random tutorials found through the [ServiceStack.NET forums](https://forums.servicestack.net/), [pluralsite](http://www.pluralsite/) and [egghead.io](http://www.egghead.io) videos.
+
+<a id="where-is-all-of-the-config"></a>
+### Where is all of the config? 
+
+A huge plus that servicestack offers is that there is no xml configuration, except the little bit that is required for the web integration. Most, if not all, of the framework allows you to configure things by conventions. I will give an example of this in the request / resposne service example [later in this article](#message-based-web-services).
+
+<a id="message-based-web-services"></a>
+### ?!? Message-based web services ?!?
+
+  The first concept that stood out to me was the whole **message-based web services**. Being in the .NET arena for most of my career, I was very used to tightly-couple and large services that did many different things. With servicestacks implementation, each services is very focused. It has taken me quite a few hours of dealing with google, servicestacks wiki and other tutorials to really grasp how awesome message-based web services really are.
+
+Let's get a small example of part of my current appplications implementation of servicestack. We have two parts to making the services work, the service and the model.  
+
+

@@ -2,7 +2,9 @@
 published: true
 lauout: default
 layout: default
+comments: true
 ---
+
 
 
 

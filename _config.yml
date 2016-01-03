@@ -1,5 +1,7 @@
 gems: ['kramdown']
 
+comments: True
+
 # Site settings
 title: TechTalk
 email: ryan@ryanhelms.com

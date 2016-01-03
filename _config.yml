@@ -12,7 +12,6 @@ twitter_username: ryanhelms
 github_username:  ryanhelms
 
 highlighter: pygments
-#highlighter: rouge
 
 markdown: kramdown
 permalink: pretty

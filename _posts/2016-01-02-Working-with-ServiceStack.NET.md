@@ -8,6 +8,7 @@ layout: default
 
 
 
+
 ## My experience working with ServiceStack.NET
 
 ### Background
@@ -26,19 +27,18 @@ A huge plus that servicestack offers is that there is no xml configuration, exce
 
 Let's get a small example of part of my current appplications implementation of servicestack. We have three parts to making the services work, the service, request and the response. Below is an example of each.
 
-<div style="text-align: left">
+<div style="text-align:left;">
 
 ####**_Request Example_**
 
-![RequestExample.png]({{site.baseurl}}/_posts/RequestExample.png)
+
 
 ####**_Response Example_**
 
-![ResponseExample.png]({{site.baseurl}}/_posts/ResponseExample.png)
+
 
 ####**_Response Example_**
 
-![ServiceExample.png]({{site.baseurl}}/_posts/ServiceExample.png)
+
 
 </div>
-

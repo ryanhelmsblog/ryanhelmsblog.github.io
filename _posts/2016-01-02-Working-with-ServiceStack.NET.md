@@ -7,6 +7,7 @@ layout: default
 
 
 
+
 ## My experience working with ServiceStack.NET
 
 ### Background
@@ -23,6 +24,18 @@ A huge plus that servicestack offers is that there is no xml configuration, exce
 
   The first concept that stood out to me was the whole **message based web services**. Being in the .NET arena for most of my career, I was very used to tightly-couple and large services that did many different things. With servicestacks implementation, each services is very focused. It has taken me quite a few hours of dealing with google, servicestacks wiki and other tutorials to really grasp how awesome message-based web services really are.
 
-Let's get a small example of part of my current appplications implementation of servicestack. We have two parts to making the services work, the service and the model.
+Let's get a small example of part of my current appplications implementation of servicestack. We have three parts to making the services work, the service, request and the response. Below is an example of each.
 
+<div style="text-align: left">
+
+####**_Request Example_**
+![RequestExample.png]({{site.baseurl}}/_posts/RequestExample.png)
+
+####**_Response Example_**
+![ResponseExample.png]({{site.baseurl}}/_posts/ResponseExample.png)
+
+####**_Response Example_**
+![ServiceExample.png]({{site.baseurl}}/_posts/ServiceExample.png)
+
+</div>
 

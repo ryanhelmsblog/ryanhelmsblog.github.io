@@ -33,6 +33,12 @@
       </div>
     </div>
 
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+      	{% unless page.nodate %} {{ page.date | date: "%b %-d, %Y" }}{% endunless %}
+      </div>
+    </div>
+        
   </div>
 
 </footer>

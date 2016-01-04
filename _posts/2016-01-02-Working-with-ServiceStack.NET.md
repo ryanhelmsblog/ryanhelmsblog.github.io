@@ -29,16 +29,17 @@ Let's get a small example of part of my current appplications implementation of 
 
 <div style="text-align:left;">
 
-####**_Request Example_**
+####Request Example_**
 
+![RequestExample.png]({{site.baseurl}}/_posts/images/RequestExample.png)
 
+####Response Example
 
-####**_Response Example_**
+![ResponseExample.png]({{site.baseurl}}/_posts/images/
+ResponseExample.png)
 
+####Service Example
 
-
-####**_Response Example_**
-
-
+![ServiceExample.png]({{site.baseurl}}/_posts/images/ServiceExample.png)
 
 </div>
